@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_financial_local_prices",
+  "info": {
+    "displayName": "local_price",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Restaurants",
+        "Markets",
+        "Transportation",
+        "Utilities",
+        "Sports And Leisure",
+        "Childcare",
+        "Clothing And Shoes",
+        "Rent Apartment",
+        "Buy House",
+        "Salaries and Financial"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "financial.amount"
+    }
+  }
+}

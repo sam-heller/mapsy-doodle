@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_financial_price_indes",
+  "info": {
+    "displayName": "price_inde",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::address.address"
+    }
+  }
+}

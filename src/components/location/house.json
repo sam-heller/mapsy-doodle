@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_location_houses",
+  "info": {
+    "displayName": "house"
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "apt": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    }
+  }
+}

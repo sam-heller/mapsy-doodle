@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_location_localities",
+  "info": {
+    "displayName": "locality",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "City": {
+      "type": "string"
+    },
+    "County": {
+      "type": "string"
+    },
+    "Region": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    }
+  }
+}

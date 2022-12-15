@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_financial_amounts",
+  "info": {
+    "displayName": "amount"
+  },
+  "options": {},
+  "attributes": {
+    "dollars": {
+      "type": "integer"
+    },
+    "cents": {
+      "type": "integer"
+    }
+  }
+}
